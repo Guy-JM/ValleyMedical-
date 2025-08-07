@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tri-Valley Medical</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Header Styling */
+    header {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      height:100px ;
+      background-color: white;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 1000;
+    }
+
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #222;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 25px;
+      margin-left: -25px; /* Move nav links 25px to the left */
+      align-items: center;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: black;
+      font-size: 1rem;
+      transition: color 0.2s ease;
+    }
+
+    .nav-links a:hover {
+      color: #007BFF;
+    }
+
+    .appointment-btn {
+      background-color: #274162; /* Dark blue */
+      color: white;              /* White text */
+      padding: 8px 16px;
+      border: none;
+      border-radius: 4px;
+      font-size: 1rem;
+      cursor: pointer;
+      text-decoration: none;
+      transition: opacity 0.2s ease;
+    }
+
+    .appointment-btn:hover {
+      opacity: 0.9;
+    }
+
+    .topscreen {
+      background-image: url('1879892.jpeg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 100vh;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: black;
+      padding: 20px;
+    }
+    .topscreen h1 {
+      font-size: 6rem;
+      margin-bottom: 20px;
+    }
+
+    .call-btn {
+      display: inline-block;
+      background-color: #274162;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-size: 1.1rem;
+      margin-bottom: 15px;
+    }
+
+    .call-btn:hover {
+      opacity: 0.9;
+    }
+
+    .topscreen p {
+      margin-top: 15px;
+      font-size: 3rem;
+    }
+
+    .bttmscreen {
+      background-image: url('1879891.jpeg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 100vh;
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+
+    }
+    .box {
+      width: 217px;
+      height: 184px;
+      border-radius: 40px;
+      background-color: rgba(255, 255, 255, .4);
+      border: 9px #274162;
+      margin: auto;
+      display: inline-flex; 
+      justify-content: center;
+      align-items: center;
+      color: white ;
+    }
+    .footer {
+      height: 40vh;
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+    }
+    .fbox{
+      background-color: rgba(255, 255, 255, 1.0);
+    }
+
+    /* Push page content below header */
+    .content {
+      padding-top: 80px;
+    }
+    
+  </style>
+</head>
+<body>
+
+  <header>
+    <div href="index.html" class="logo">Tri-Valley Medical</div>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="providers.html">Providers</a>
+      <a href="tel:19258668800" class="appointment-btn">Request Appointment</a>
+    </nav>
+  </header>
+
+  <div class="topscreen" >
+    <div class="topscreen-content">
+      <h1>Tri-Valley Medical</h1>
+      <a href="tel:19258668800" class="call-btn">Call: 1 (925) 866-8800</a>
+      <p>1081 Market Pl #200, San Ramon, CA 94583</p>
+    </div>
+  </div>
+  <div class="bttmscreen">
+    <a href ="InternalMed.html" class ="box"><div  class ="box"><h1 style="padding-left: 50px;"> Internal Medicine </h1></div></a>
+    <a href ="Podiatry.html" class ="box"><div class ="box"><h1> Podiatry </h1></div></a>
+    <div class ="box"><h1> Aesthetic </h1></div>
+    <a href ="WLProgSH.html" class ="box" > <div class ="box"><h1> Weight Loss Programs & Sleep Health </h1></div></a>
+    
+  </div>
+  <div class="footer"> 
+    <div class="fbox"><h1 style="color: #274162;"> Location </h1><div></div><p>1081 Market Pl #200, San Ramon, CA 94583<p></div>
+    <div class="fbox"><p style="color: #274162;">Copyright © 2025 Tri-Valley Medical - All Rights Reserved. </p></div>
+    <div class="fbox"><h1 style="color: #274162;">office hours</h1><div>
+      <p style="width: 250px">Monday 8:30 am - 4:30 pm <br> 
+        Tuesday 8:30 am - 4:30 pm<br> 
+        Wednesday 9:30 am - 4:30 pm<br> 
+        Thursday 8:30 am - 4:30 pm<br> 
+        Friday 8:30 am - 4:30 pm<br> 
+        Saturday Available by Appointment<br> 
+        Sunday Closed
+      </p></div>
+    </div>
+  </div>
+
+</body>
+</html>

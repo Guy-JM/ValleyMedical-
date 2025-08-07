@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tri-Valley Medical</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Header Styling */
+    header {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      height:100px ;
+      background-color: white;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 1000;
+    }
+
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #222;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 25px;
+      margin-left: -25px; /* Move nav links 25px to the left */
+      align-items: center;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: black;
+      font-size: 1rem;
+      transition: color 0.2s ease;
+    }
+
+    .nav-links a:hover {
+      color: #007BFF;
+    }
+
+    .appointment-btn {
+      background-color: #274162; /* Dark blue */
+      color: white;              /* White text */
+      padding: 8px 16px;
+      border: none;
+      border-radius: 4px;
+      font-size: 1rem;
+      cursor: pointer;
+      text-decoration: none;
+      transition: opacity 0.2s ease;
+    }
+
+    .appointment-btn:hover {
+      opacity: 0.9;
+    }
+
+    .topscreen {
+      background-image: url('1879892.jpeg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 100vh;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: black;
+      padding: 20px;
+    }
+    .topscreen h1 {
+      font-size: 6rem;
+      margin-bottom: 20px;
+    }
+
+    .call-btn {
+      display: inline-block;
+      background-color: #274162;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-size: 1.1rem;
+      margin-bottom: 15px;
+    }
+
+    .call-btn:hover {
+      opacity: 0.9;
+    }
+
+    .topscreen p {
+      margin-top: 15px;
+      font-size: 3rem;
+    }
+
+    .bttmscreen {
+      background-image: url('1879891.jpeg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 100vh;
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+
+    }
+    .box {
+      width: 217px;
+      height: 184px;
+      border-radius: 40px;
+      background-color: rgba(255, 255, 255, .4);
+      border: 9px #274162;
+      margin: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white ;
+    }
+    .providers1  {
+      padding: 100px;
+    }
+    .providers1 p {
+      margin-top: 15px;
+      font-size: 1.5rem;
+      line-height: 2;
+
+    }
+    .providers1 h3 {
+      color:#274162;
+    }
+    .JATINDER {
+      float: right;
+    }
+    .providers2  {
+      padding: 100px;
+    }
+    .providers2 p {
+      margin-top: 15px;
+      font-size: 1.5rem;
+      line-height: 2;
+    }
+    .providers2 h3 {
+      color:#274162;
+    }
+    .Dimple {
+      float: right;
+    }
+    .footer {
+      height: 40vh;
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+    }
+    .fbox{
+      background-color: rgba(255, 255, 255, 1.0);
+    }
+
+    /* Push page content below header */
+    .content {
+      padding-top: 80px;
+    }
+    
+  </style>
+</head>
+<body>
+
+  <header>
+    <div href="index.html" class="logo">Tri-Valley Medical</div>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="providers.html">Providers</a>
+      <a href="tel:19258668800" class="appointment-btn">Request Appointment</a>
+    </nav>
+  </header>
+
+  <div class = "providers1">
+    <h3> JATINDER MARWAHA, MD, FACP  </h3>
+    <h4>Internal Medicine</h4>
+    <img class="JATINDER" src="DRJatinder.jpeg">
+    <p>Dr. Marwaha is an exceptionally caring physician at Tri-Valley Medical Center located in San Ramon, CA. He appreciates the challenge of diagnosing tough medical cases and does so with a compassionate and thoughtful approach. As Chairman in the Department of Medicine at San Ramon Regional Medical Center, he consistently leads his peers in developing a greater understanding of patient needs in both the hospital and clinical environment. A strong advocate of continuing education, Dr. Marwaha, spends a great deal of time growing his Internal Medicine knowledge base. His goal in this regard is singular: help patients get better and stay better. A Board Certified Internal Medicine physician, Dr. Marwaha completed his Internal Medicine Internship at University of Nevada School of Medicine. His Internal Medicine residency was completed San Joaquin General Hospital.<br><br>
+      Dr. Marwaha is also Board Certified in Sleep Medicine and has developed and implemented an In-Home Sleep Testing Program for his patients.<br>
+    </p>
+    <h4>DR. MARWAHA IS A MEMBER OF THE FOLLOWING ORGANIZATIONS:</h4>
+    <ul>
+      <li>American Board of Internal Medicine</li>
+      <li>American College of Physicians</li>
+      <li>American Medical Association</li>
+      <li>California Medical Association</li>
+      <li>Alameda Contra-Costa Medical Association</li>
+      <li>American Diabetes Association</li>
+      <li>American Physicians of Indian Origin</li>
+      <li>Alameda Podiatric Medical Association</li>
+    </ul>
+    <p>Currently the Podiatric Section Chair in the Department of Surgery at Washington Hospital in Fremont, Dr. Marwaha is also on staff at San Ramon Regional   Medical Center. Dr. Marwaha is also a Qualified Medical Examiner.<br><br>
+        Dr. Marwaha is also Board Certified in Sleep Medicine and has developed and implemented an In-Home Sleep Testing Program for his patients.
+    </p>
+    <a href="https://www.mdvip.com/doctors/jatindermarwahamd">Visit my MD VIP profile</a>
+  </div>
+  <div class = "providers2">
+    <h3> DIMPLE MARWAHA, DPM  </h3>
+    <h4>Podiatrist</h4>
+    <img class="Dimple" src="DRDimple.jpeg">
+    <p>A Board Certified Podiatrist since 1997, Dr. Marwaha places patient wellness and health above all else. Dr. Marwaha has a special interest in Pediatric Podiatry, Sports Related and Work-Related Podiatric Injuries. After graduating from University of California, Davis, she completed her Podiatric education at California College of Podiatric Medicine. Additionally, she completed specialized training during a Podiatric Surgery Residency under the guidance of HW Reese, DPM.<br><br>
+      Currently the Podiatric Section Chair in the Department of Surgery at Washington Hospital in Fremont, Dr. Marwaha is also on staff at San Ramon Regional Medical Center. Dr. Marwaha is also a Qualified Medical Examiner.
+Dr. Marwaha is also Board Certified in Sleep Medicine and has developed and implemented an In-Home Sleep Testing Program for his patients.<br>
+    </p>
+    <h4>DR. MARWAHA IS A MEMBER OF THE FOLLOWING ORGANIZATIONS:</h4>
+    <ul>
+      <li>American Podiatric Medical Association</li>
+      <li>California Podiatric Medical Association</li>
+      <li>American Diabetes Association</li>
+      <li>American Physicians of Indian Origin</li>
+      <li>Alameda Podiatric Medical Association</li>
+    </ul>    
+    </p>
+  </div>
+  <div class="footer"> 
+    <div class="fbox"><h1 style="color: #274162;"> Location </h1><div></div><p>1081 Market Pl #200, San Ramon, CA 94583<p></div>
+    <div class="fbox"><p style="color: #274162;">Copyright © 2025 Tri-Valley Medical - All Rights Reserved. </p></div>
+    <div class="fbox"><h1 style="color: #274162;">office hours</h1><div>
+      <p style="width: 250px">Monday 8:30 am - 4:30 pm <br> 
+        Tuesday 8:30 am - 4:30 pm<br> 
+        Wednesday 9:30 am - 4:30 pm<br> 
+        Thursday 8:30 am - 4:30 pm<br> 
+        Friday 8:30 am - 4:30 pm<br> 
+        Saturday Available by Appointment<br> 
+        Sunday Closed
+      </p></div>
+    </div>
+  </div>
+
+</body>
+</html>

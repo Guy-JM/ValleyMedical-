@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tri-Valley Medical</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Header Styling */
+    header {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      height:100px ;
+      background-color: white;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 1000;
+    }
+
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #222;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 25px;
+      margin-left: -25px; /* Move nav links 25px to the left */
+      align-items: center;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: black;
+      font-size: 1rem;
+      transition: color 0.2s ease;
+    }
+
+    .nav-links a:hover {
+      color: #007BFF;
+    }
+
+    .appointment-btn {
+      background-color: #274162; /* Dark blue */
+      color: white;              /* White text */
+      padding: 8px 16px;
+      border: none;
+      border-radius: 4px;
+      font-size: 1rem;
+      cursor: pointer;
+      text-decoration: none;
+      transition: opacity 0.2s ease;
+    }
+
+    .appointment-btn:hover {
+      opacity: 0.9;
+    }
+
+    .topscreen {
+      background-image: url('1879892.jpeg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 100vh;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: black;
+      padding: 20px;
+    }
+    .topscreen h1 {
+      font-size: 6rem;
+      margin-bottom: 20px;
+    }
+
+    .call-btn {
+      display: inline-block;
+      background-color: #274162;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-size: 1.1rem;
+      margin-bottom: 15px;
+    }
+
+    .call-btn:hover {
+      opacity: 0.9;
+    }
+
+    .topscreen p {
+      margin-top: 15px;
+      font-size: 3rem;
+    }
+
+    .bttmscreen {
+      background-image: url('1879891.jpeg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 100vh;
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+
+    }
+    .box {
+      width: 217px;
+      height: 184px;
+      border-radius: 40px;
+      background-color: rgba(255, 255, 255, .4);
+      border: 9px #274162;
+      margin: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white ;
+    }
+    .Podiatry  {
+      padding: 100px;
+    }
+    .Podiatry p {
+      margin-top: 15px;
+      font-size: 1.3rem;
+      margin-left: 15px;
+      line-height: 2;
+    }
+    .Podiatry li {
+      margin-bottom: 10px;
+    }
+    .footer {
+      height: 40vh;
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+    }
+    .fbox{
+      background-color: rgba(255, 255, 255, 1.0);
+    }
+
+    /* Push page content below header */
+    .content {
+      padding-top: 80px;
+    }
+    
+  </style>
+</head>
+<body>
+
+  <header>
+    <div href="index.html" class="logo">Tri-Valley Medical</div>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="providers.html">Providers</a>
+      <a href="tel:19258668800" class="appointment-btn">Request Appointment</a>
+    </nav>
+  </header>
+
+  <div class = "Podiatry">
+    <h3>What is podiatry?</h3>
+    <p>A podiatrist, or doctor of podiatric medicine, is a healthcare specialist who provides medical diagnosis and treatment of foot and ankle problems, including sprains and fractures, bunions, heel pain/spurs, hammertoes, neuromas, ingrown toenails, warts, corns and calluses. A podiatrist also renders care of sprains, fractures, infections, and injuries of the foot, ankle and heel. A podiatrist is required to complete four years of undergraduate medical school training and four years of podiatric medical school in order to obtain the appropriate credentials to practice podiatric medicine. Additionally, they frequently complete post graduate residency training in podiatric primary care, orthopedics and/or surgery. As with all physicians, podiatrists are required to take state and national exams, as well as be licensed by the state in which they practice. According to the American Podiatric Medical Association, there are more than 17,800 practicing podiatrists in the United States. As the population of the U.S. continues to age, the demand for podiatric care will increase.
+    </p>
+    <h4>OUR PODIATRISTS:</h4>
+    <ul>
+      <li>Consult with the patient and other physicians on how to prevent foot problems.</li>
+      <li>Diagnose and treatment of tumors, ulcers, fractures, skin and nail diseases, and deformities.</li>
+      <li>Perform surgeries to correct or remedy such problems as bunions, clawtoes, fractures, hammertoes, infections, and ruptured Achilles and other ligaments and tendons.</li>
+      <li>Prescribe therapies and perform or refer diagnostic procedures such as ultrasound, CT and MRI and other lab tests.</li>
+      <li>Prescribe or fit patients with inserts called orthotics that correct walking patterns.</li>
+      <li>Treat conditions such as bone disorders, bunions, corns, calluses, cysts, heel spurs, infections, ingrown nails, and plantar fasciitis.</li>
+    </ul>
+    <h4>OUR SPECIALIST PROCEDURES & TREAMENT:</h4>
+    <ul>
+      <li>Antifungal (Formula3).</li>
+      <li>Nail & Callous Reduction.</li>
+      <li>Nail Avulsion.</li>
+      <li>Nail Avulsion & Matrixectomy.</li>
+      <li>Orthotics (Casting + 2 OV).</li>
+      <li>Orthotics (2nd Pair).</li>
+      <li>Traumeel Injection.</li>
+      <li>X-Ray (2 Views).</li>
+      <li>X-Ray (3 Views).</li>
+    </ul>
+  </div>
+  <div class="footer"> 
+    <div class="fbox"><h1 style="color: #274162;"> Location </h1><div></div><p>1081 Market Pl #200, San Ramon, CA 94583<p></div>
+    <div class="fbox"><p style="color: #274162;">Copyright © 2025 Tri-Valley Medical - All Rights Reserved. </p></div>
+    <div class="fbox"><h1 style="color: #274162;">office hours</h1><div>
+      <p style="width: 250px">Monday 8:30 am - 4:30 pm <br> 
+        Tuesday 8:30 am - 4:30 pm<br> 
+        Wednesday 9:30 am - 4:30 pm<br> 
+        Thursday 8:30 am - 4:30 pm<br> 
+        Friday 8:30 am - 4:30 pm<br> 
+        Saturday Available by Appointment<br> 
+        Sunday Closed
+      </p></div>
+    </div>
+  </div>
+
+</body>
+</html>
