@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tri-Valley Medical</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Header Styling */
+    header {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      height:100px ;
+      background-color: white;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 1000;
+    }
+
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #222;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 25px;
+      margin-left: -25px; /* Move nav links 25px to the left */
+      align-items: center;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: black;
+      font-size: 1rem;
+      transition: color 0.2s ease;
+    }
+
+    .nav-links a:hover {
+      color: #007BFF;
+    }
+
+    .appointment-btn {
+      background-color: #274162; /* Dark blue */
+      color: white;              /* White text */
+      padding: 8px 16px;
+      border: none;
+      border-radius: 4px;
+      font-size: 1rem;
+      cursor: pointer;
+      text-decoration: none;
+      transition: opacity 0.2s ease;
+    }
+
+    .appointment-btn:hover {
+      opacity: 0.9;
+    }
+
+    .topscreen {
+      background-image: url('1879892.jpeg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 100vh;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: black;
+      padding: 20px;
+    }
+    .topscreen h1 {
+      font-size: 6rem;
+      margin-bottom: 20px;
+    }
+
+    .call-btn {
+      display: inline-block;
+      background-color: #274162;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-size: 1.1rem;
+      margin-bottom: 15px;
+    }
+
+    .call-btn:hover {
+      opacity: 0.9;
+    }
+
+    .topscreen p {
+      margin-top: 15px;
+      font-size: 3rem;
+    }
+
+    .bttmscreen {
+      background-image: url('1879891.jpeg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 100vh;
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+
+    }
+    .box {
+      width: 217px;
+      height: 184px;
+      border-radius: 40px;
+      background-color: rgba(255, 255, 255, .4);
+      border: 9px #274162;
+      margin: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white ;
+    }
+    .aesthetics {
+      padding: 100px;
+    }
+    .about p {
+      margin-top: 15px;
+      font-size: 1.5rem;
+      line-height: 2;
+    }
+    .footer {
+      height: 40vh;
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+    }
+    .fbox{
+      background-color: rgba(255, 255, 255, 1.0);
+    }
+
+    /* Push page content below header */
+    .content {
+      padding-top: 80px;
+    }
+    
+  </style>
+</head>
+<body>
+
+  <header>
+    <div href="index.html" class="logo">Tri-Valley Medical</div>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="providers.html">Providers</a>
+      <a href="tel:19258668800" class="appointment-btn">Call to Book</a>
+    </nav>
+  </header>
+
+  <div class = "aesthetics">
+    <h1>Body Conturing</h1>
+    <p>Struggling to lose diet-resistant fat in stubborn areas like your arms, belly, or thighs? Achieve the slim silhouette you’re dreaming of with body contouring!</p>
+    <p>Body contouring is an aesthetic treatment created to reshape your body or face without medication or surgery. These noninvasive therapies typically use laser technology that require no downtime and come without the risk of infection or scarring.</p>
+    <h3>EMSCULPT NEO®</h3>
+    <p>A non-invasive treatment for fat reduction and muscle toning</p>
+    <h3>ALMA ACCENT PRIME™</h3>
+    <p>Provides skin tightening, body contouring, and overall aesthetic enhancement.</p>
+    <h1>Medical Weight Loss</h1>
+    <p>Are you tired of an endless cycle of diet and exercise plans that only yield short-term results? Ready to try a new approach to effective and lasting weight loss?</p>
+    <p>The team at Tri-Valley Medical Center provides the medical guidance and support you need to clearly define, reach, and maintain your weight-loss goals. That process integrates scientifically-backed tools and techniques that place your health at the center of every treatment decision.</p>
+    <h1>Laser</h1>
+    <p>Lasers have truly revolutionized aesthetic medicine, and the laser services available from the team at Tri-Valley Medical Center are among the most popular offerings at the practice.</p>
+    <p>All lasers work by concentrating beams of light into a form of energy. Medical lasers convert energy into heat, stimulating your body’s natural healing process or prompting change at the cellular level. 
+
+Today’s aesthetic lasers offer outstanding results with a very low risk of side effects. The team at Tri-Valley Medical Center has gone to great lengths to select the very best laser technology on the market to ensure impressive outcomes. </p>
+    <p> Facials , Hair removal, and tattoo removal</p>
+    <h1>Skin Resurfacing</h1>
+    <p>Laser skin resurfacing treats superficial wrinkles, and mild to moderate sun damaged skin by thermal injury which stimulates new healthy skin growth. Minimal downtime, and can treat multiple areas such as the neck, hands, chest, and face. </p>
+    <h1>Injectables</h1>
+    <p>Injectables are among the most exciting innovations in aesthetic medicine, and are a great option for men and women who want a refreshed, renewed appearance without invasive cosmetic surgery.</p>
+    <h3>KYBELLA</h3>
+    <p>Injectable treatment that destroys fat cells in the treatment area under the chin to improve your profile</p>
+    <h3>FILLERS</h3>
+    <p>Dermal fillers are injections of a soft, gel-like substance that acts to replace lost facial volume.</p>
+    <h3>BOTOX</h3>
+    <p>Temporarily impedes the movement of targeted facial muscles which smoothens and softens facial contours</p>
+    <h3>DAXXIFY</h3>
+    <p>Long-lasting frown line treatment powered by a peptide</p>
+    <h3>TEOXANE</h3>
+    <p>A range of dermal fillers that stimulates natural production of collagen and elastin for a strong, firm, and hydrated skin.</p>
+    <h1>Daxxify</h1>
+    <p>The only long-lasting, peptide-powered frown line treatment and the first innovation of its kind in over 20 years.</p>
+    <p>DAXXIFY® is FDA approved to help smooth moderate to severe lines between the brows. It is the only long-lasting frown line treatment powered by a peptide with results that last on average 6 months and up to 9 months for some.* The active ingredient in DAXXIFY® is a purified protein called botulinum toxin type A.</p>
+    <p>*At least 50% of patients in clinical studies had no or minor frown lines 6 months after treatment. Between 3% and 5% of patients in clinical studies had no or minor frown lines 9 months after treatment. In other safety studies, between 5% and 17% of patients still had noticeable improvement 9 months later.</p>
+    <h1>Teoxane</h1>
+    <p>A range of dermal fillers made of hyaluronic acid that stimulates natural production of collagen and elastin for a strong, firm, and hydrated skin.</p>
+    <h3>DYNAMIC. NATURAL. ADAPTABLE.</h3>
+    <p>Designed to adapt to dynamic facial movement for a natural look at rest—and in motion.The RHA® Collection offers 4 gels to soften lines and restore volume.</p>
+    <h1>Facial & Neck Tightening</h1>
+    <p>Non-surgical skin tightening treatment that stimulates your body’s natural healing process to improve your skin’s tone and texture.</p>
+    <p>The Tri-Valley Medical Center team offers skin tightening treatments using the innovative Alma Accent Prime™ system.</p>
+    <h1>Hydrafacial</h1>
+    <p>One of the most effective, non-invasive skin resurfacing procedures on the market today.</p>
+    <p>Hydrafacial combines cleansing, exfoliation, extraction, hydration, and antioxidant protection to remove dead skin cells and pollutants from the skin while also delivering hydrating serums.</p>
+    <h1>Custom Facials</h1>
+    <p>Our custom facials are curated to meet your skin’s exact needs! Our aesthetician will examine your skin and use the appropriate treatment and products to help you meet your skin goals. Leave glowing and refreshed.</p>
+    <h1>Keravive & PRP</h1>
+    <h3>Keravive & PRP (Platelet-Rich Plasma) Hair Loss Treatment</h3>
+    <p>A unique, relaxing treatment that cleanses, exfoliates, nourishes, and hydrates the scalp to promote healthier, fuller-looking hair, for all skin and hair types.</p>
+    <h1>Bio-Identical Hormone Replacement Therapy (BHRT)</h1>
+    <p>A specialised field of medicine that corrects hormone imbalances through the use of natural bioidentical hormones.</p>
+    <p>Bio-Identical Hormone Replacement Therapy (BHRT) uses hormones derived from natural plant sources to replicate the body’s normal hormonal levels. Patients have found that BHRT with pellet implants is extremely effective. Implants, placed under the skin, consistently release small, physiologic doses of hormones that provide optimal therapy.
+
+Unlike typical oral and transdermal forms of therapy, which can produce “roller coaster” hormone levels, resulting in mood and energy fluctuations for the patient, Qualgen's hormone pellets typically provide consistent and sustained hormone levels throughout the day for up to three to six months.
+
+Since the hormones used are completely natural, pellet therapy is ideal for patients who want the benefits of a natural hormone without the drawbacks of a synthetic. These pellets are chemically identical to the hormones your body products every day (Qualgen has the purest bio-identical hormone pellets). BHRT is a safe, effective treatment which has been around for over 70 years!</p>
+  </div>
+  <div class="footer"> 
+    <div class="fbox"><h1 style="color: #274162;"> Location </h1><div></div><p>1081 Market Pl #200, San Ramon, CA 94583<p></div>
+    <div class="fbox"><p style="color: #274162;">Copyright © 2025 Tri-Valley Medical - All Rights Reserved. </p></div>
+    <div class="fbox"><h1 style="color: #274162;">office hours</h1><div>
+      <p style="width: 250px">Monday 8:30 am - 4:30 pm <br> 
+        Tuesday 8:30 am - 4:30 pm<br> 
+        Wednesday 9:30 am - 4:30 pm<br> 
+        Thursday 8:30 am - 4:30 pm<br> 
+        Friday 8:30 am - 4:30 pm<br> 
+        Saturday Available by Appointment<br> 
+        Sunday Closed
+      </p></div>
+    </div>
+  </div>
+
+</body>
+</html>
